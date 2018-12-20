@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="columns large-12 medium-12 small-12">
+      <div class="ace-title"><p class="int">{{content.fields['intro_title_background_text']}}</p>
+        <p>{{content.fields['intro_title_text']}}</p></div>
+  </div>
+  <div class="columns large-12 medium-12 small-12">
+      <div class="int-info">
+        <div *ngFor="let pgraph of content.fields._intro_text_">
+          <p>{{pgraph['it-paragraph-before-list']}}</p>
+        </div>
+        <ul *ngFor="let item of content.fields.intro_text_list_">
+          <li>{{item.list_item}}</li>
+        </ul>
+        <div *ngFor="let pgraph of content.fields.intro_text">
+          <p>{{pgraph['it-paragraph-after-list']}}</p>
+        </div>
+      </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+.elect-opts { padding: 40px 0px;background: #F3F3F3;margin-top: 20px;}
+.elect-opts .each-block.b-transform-off, .each-tuition.b-transform-off {transform: translateY(0px); -ms-transform: translateY(0px); -webkit-transform: translateY(0px);-moz-transform: translateY(15px);}
+.elect-opts .each-block {background: #FFF;padding: 0px;height: 275px; display: inline-table;max-width: 29%;float: none !important;  margin: 0px 20px 65px; position: relative; box-shadow: 0 0 0.125em 0 rgba(4,49,64,0.1); transition: height .3s ease-in-out, transform .3s ease-in-out, box-shadow .3s ease-in-out; -moz-transition: height .3s ease-in-out, transform .3s ease-in-out, box-shadow .3s ease-in-out; -webkit-transition: height .3s ease-in-out, transform .3s ease-in-out, box-shadow .3s ease-in-out;}
+.elect-opts .each-block .img-pthwy { background: none;}
+.elect-opts h3 {font-size:45px;color:#000000;text-align:center;padding-top:20px;padding-bottom:40px;}
+.elect-opts .learn-more-pthwy:after { display: block;padding-top: 11px;content: "Learn More";}
+.elect-opts .set-height {height: 520px;}
+.elect-opts .each-block.b-transform-on, .each-tuition.b-transform-on {transform: translateY(-10px);-ms-transform: translateY(-10px);-webkit-transform: translateY(-10px);-moz-transform: translateY(0px);}
+.elect-opts .each-block .img-pthwy img { display: block;margin: 0px auto;width:100%;}
+.elect-opts .each-block .boxtitle { color: #159bcd; font-size: 22px; font-weight: 600; text-align: center; font-family: "proxima-nova"; padding-top: 50px;}
+.elect-opts .each-block .boxtxt { height: 123px;color: #161616; font-size: 16px; line-height: 23px; font-weight: 500;text-align: center;font-family: "proxima-nova";padding-top: 10px;  padding-left: 20px; padding-right: 20px;padding-bottom: 0px;}
+.elect-opts .learn-more-pthwy.l-transform-off { transform: translateY(81%);-ms-transform: translateY(81%); -webkit-transform: translateY(81%);-moz-transform: translateY(100%);}
+.elect-opts .learn-more-pthwy {height: 45px; text-align: center;text-transform: uppercase;color: #FFF;font-family: "proxima-nova";font-weight: bold;font-size: 16px;background: transparent;/* border-bottom: 6px solid #4eb7e6; */transition: transform .3s ease-in-out, background-color 1s ease;-webkit-transition: transform .3s ease-in-out, background-color 1s ease;-moz-transition: transform .3s ease-in-out, background-color 1s ease;}

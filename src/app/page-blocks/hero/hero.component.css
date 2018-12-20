@@ -1,0 +1,25 @@
+.hero {width: 100%;height: 490px;}
+.hero {background-repeat: no-repeat; background-position: left top; background-size: cover;}
+.interior-hero {height:340px;}
+.interior-hero .banner-text {padding-top:110px !important;}
+.hero .banner-text {margin: 0px auto;text-align: center;padding-top: 150px;color: #fff;line-height: 80px;width:100%;z-index:1000;}
+.hero .main-heading {color:#fff;font-weight: 300;font-size: 48px;line-height: 30px;text-transform: none;width:100%;text-align:right;}
+.hero .main-heading .word-change span {font-weight:600;color:#ED9229;}
+.hero .sub-heading {color:#fff;font-weight: 600;font-size: 22px; padding-bottom: 25px;}
+.hero .banner-text button { text-transform: uppercase;font-family: "proxima-nova";font-size: 20px;font-weight: 600; width:285px;border: 2px solid #FFF; border-radius: 30px;position: relative;background-color:transparent;}
+.hero .interior-main {font-weight:400;font-size:48px;line-height:60px;color:#fff;}
+.hero .interior-sub {font-size:26px;line-height:45px;color:#fff;}
+.pf-pad .hero .banner-text .button:hover i {right: 38px;}
+.hero .banner-text .button i {font-size: 24px;top: 15px;right: 35px;}
+.hero .banner-text .button:hover i {right: 20px;opacity: 1;}
+
+@media only screen and (min-width: 320px) and (max-width:1023px) {
+    .hero {background-repeat: no-repeat; background-position:center; background-size: cover;}
+    .hero .banner-text {padding-top:70px;}
+    .hero .main-heading {font-size:38px;line-height:37px;text-align:center;}
+    .hero .sub-heading {font-size: 18px;line-height: 30px;padding-bottom: 25px;}
+    .hero .interior-main {font-weight: 400;font-size: 35px;line-height: 40px;}
+    .hero .interior-sub {font-size: 20px;line-height: 35px;}
+    .hero {height:400px;margin-top:55px;}
+    .interior-hero {height:285px;margin-top:55px;}
+}

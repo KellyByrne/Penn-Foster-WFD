@@ -1,0 +1,16 @@
+<section class="elect-opts" style="background: none;">
+  <div class="row">
+  </div>
+      <div class="row set-height">
+          <section *ngFor="let block of content.fields.image_blocks" class="large-4 medium-4 small-12 columns each-block">
+              <a href="/programs.html" title="block.block_title">
+                <div class="img-pthwy">
+                    <img src={{block.image_path}} alt="">
+                </div>
+                  <div class="boxtitle">{{block.block_title}}</div>
+                  <div class="boxtxt">{{block.block_desc}}</div>
+                  <div class="learn-more-pthwy"></div>
+              </a>
+          </section>
+      </div>
+</section>

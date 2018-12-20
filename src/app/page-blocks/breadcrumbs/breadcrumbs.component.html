@@ -1,0 +1,14 @@
+<div class="row desktoponly">
+  <div class="large-12 medium-12 columns bcrumbs" itemprop="breadcrumb" itemscope="" itemtype="http://schema.org/breadcrumb">
+    <a itemprop="url" href="/"><span itemprop="name">Home</span></a>
+    <span class="sep"> &gt; </span>
+    <span *ngFor="let breadcrumb of content.fields.breadcrumbs">
+        <span itemprop="child" itemscope="" itemtype="http://schema.org/breadcrumb">
+          <a itemprop="url" [routerLink]="['breadcrumb[`b-crumb_link`]']">
+            <span itemprop="name">{{ breadcrumb['b-crumb_name']  }}</span>
+          </a>
+          <span class="sep"> &gt; </span>
+        </span>
+      </span>
+  </div>
+</div>

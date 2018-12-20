@@ -1,0 +1,4 @@
+footer {padding-top:70px;padding-bottom:70px;}
+footer ul, footer p {float:right;}
+footer li {list-style-type:none;display:inline-table;}
+footer li a {text-transform:uppercase;color:#000000;font-weight:700;font-size:16px;padding-left:15px;}
